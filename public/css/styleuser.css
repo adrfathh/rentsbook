@@ -1,0 +1,44 @@
+.navbar-inverse {
+    padding: 0 3%;
+    border-radius: none;
+    border: none;
+}
+
+.book-display {
+    display: flex;
+    padding: 0 5%;
+    justify-content: space-around;
+}
+
+.card {
+    border-style: groove;
+    border-radius: 10px;
+    border-color: rgba(0, 0, 0, 0.500);
+}
+
+.card-body {
+    display: flex;
+}
+
+.img-fluid {
+    max-width: 150px;
+    height: auto;
+    border-radius: 7px 0 0 7px;
+    border-right: groove;
+    border-color: rgba(0, 0, 0, 0.500);
+}
+
+.element {
+    margin-left: 15px;
+}
+
+.card-link {
+    color: black;
+    margin-left: 40px;
+    transition-property: all;
+}
+
+.card-link:hover {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.500);
+}

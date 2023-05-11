@@ -1,0 +1,173 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+    align-items: center;
+    background-color: rgb(220, 220, 220);
+}
+
+.navbar > h1 {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-menu ul {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-menu a {
+    outline: none;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    padding: 0 7.5px;
+}
+
+.navbar .getstarted,
+.navbar .getstarted:focus {
+  padding: 8px 20px;
+  margin-left: 30px;
+  border-radius: 50px;
+  color: rgb(0, 0, 0);
+  font-size: 13px;
+  border: 2px solid rgb(39, 39, 61);
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar .getstarted:hover,
+.navbar .getstarted:focus:hover {
+  color: white;
+  background: rgb(39, 39, 61);
+}
+
+.nav-menu a:hover {
+    color: rgb(39, 39, 61);
+}
+
+.d-block {
+    max-height: 300px;
+}
+
+.card-content {
+    padding: 7.5% 15%;
+    background-color: rgb(39, 39, 61);
+}
+
+.card-content h1 {
+    text-align: center;
+    color: white;
+    padding-bottom: 10%;
+}
+
+.card-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-body a {
+    background-color: rgb(45, 45, 94);
+    border: none;
+}
+
+.card-body a:hover {
+    background-color: rgb(45, 45, 94, 0.75);
+}
+
+.accordion {
+    padding: 5% 10%;
+}
+
+.accordion h1 {
+    padding-bottom: 5%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.massage {
+    width: 100%;
+    height: 25%;
+    justify-content: center;
+    padding: 0 10%;
+    padding-bottom: 30px;
+    background-color: rgb(220, 220, 220);
+}
+
+.massage-from {
+    width: 100%;
+}
+
+.massage h1 {
+    padding: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.inputer {
+    display: grid;
+    justify-content: center;
+}
+
+.input {
+    width: 500px;
+    height: 35px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    color: rgb(39, 39, 61);
+}
+
+.input-massage {
+    width: 500px;
+    height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    color: rgb(39, 39, 61);
+}
+
+.submit {
+    width: 175px;
+    height: 40px;
+    border-radius: 7px;
+    justify-self: center;
+    border: 2px solid rgb(39, 39, 61);
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(220, 220, 220);
+}
+
+.submit:hover {
+    background-color:rgb(39, 39, 61);
+    color: white;
+}
+.login-content {
+    padding: 15% 20%;
+}
+
+.register-content {
+    padding: 10% 20%;
+}
+
+.login-content h1 {
+    font-weight: bolder;
+    text-align: center;
+}
